@@ -1,4 +1,4 @@
-package main
+package doc
 
 import (
 	"os"
@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-docs/pkg/cmd"
 )
 
-func main() {
+func Run() {
 	name := "tfplugindocs"
 	version := name + " Version " + version
 	if commit != "" {
@@ -18,7 +18,7 @@ func main() {
 	os.Exit(cmd.Run(
 		name,
 		version,
-		os.Args[1:],
+		[]string{"generate", "."},
 		os.Stdin,
 		colorable.NewColorableStdout(),
 		colorable.NewColorableStderr(),

@@ -1,4 +1,4 @@
-package main
+package doc
 
 var (
 	// These vars will be set by goreleaser.
