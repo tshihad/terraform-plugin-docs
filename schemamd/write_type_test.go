@@ -7,7 +7,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform-plugin-docs/schemamd"
+	"github.com/tshihad/terraform-plugin-docs/schemamd"
 )
 
 func TestWriteType(t *testing.T) {

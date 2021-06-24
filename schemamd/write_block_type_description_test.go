@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	tfjson "github.com/hashicorp/terraform-json"
-	"github.com/hashicorp/terraform-plugin-docs/schemamd"
+	"github.com/tshihad/terraform-plugin-docs/schemamd"
 )
 
 func TestWriteBlockTypeDescription(t *testing.T) {

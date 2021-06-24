@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/hashicorp/terraform-plugin-docs/pkg/provider"
+	"github.com/tshihad/terraform-plugin-docs/pkg/provider"
 )
 
 type generateCmd struct {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/mattn/go-colorable"
 
-	"github.com/hashicorp/terraform-plugin-docs/pkg/cmd"
+	"github.com/tshihad/terraform-plugin-docs/pkg/cmd"
 )
 
 func Run() {
